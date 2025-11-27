@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Obrazec</title>
+  <link rel="stylesheet" href="n2.css">
+</head>
+<body>
+	<div id="glavni">
+		<p id="n1">Register</p>
+    <div class="n2">
+      <p>Email or mobile number</p>
+      <input type="text" placeholder="Enter your email">
+    </div>
+		<div class="n3">
+      <p>Name & Surname</p>
+      <input type="text" placeholder="Enter your name & surname">
+    </div>
+	<div class="n4">
+		<p>Gender</p>
+		<style>
+			input[type="radio"] {
+			accent-color: #c50f18;
+		}
+		</style>
+		<input type="radio" id="možnost1" name="skupina" value="Male">
+		<label>Male</label><br>
+		<input type="radio" id="možnost1" name="skupina" value="Female">
+		<label>Female</label>
+	</div>
+    <div class="n2">
+      <p>Password</p>
+      <input type="password" placeholder="Enter your password">
+    </div>
+	<div class="n2">
+      <p>Re-Enter Password</p>
+      <input type="password" placeholder="Enter your password">
+    </div>
+		<button class="g" id="registerBtn">Register</button>
+	</div>
+	<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+	<script src="n2.js"></script>
+	</body>
+</html>
